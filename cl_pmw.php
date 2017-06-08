@@ -387,6 +387,7 @@ class cl_pmw
 	{
 		global $wpdb;
         global $option;
+		$option = get_option( 'option' );
 
 		if ( $option['expires'] > 0 )
 			{
