@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PrivateMessageWordpress\n"
+"POT-Creation-Date: 2016-07-14 16:18+0300\n"
+"PO-Revision-Date: 2016-07-14 16:32+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cl_pmw.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: cl_pmw.php:53 templates/options.php:2
+msgid "Private Messages Options"
+msgstr "Опции за съобщения"
+
+#: cl_pmw.php:53 cl_pmw.php:57
+msgid "Private Messages"
+msgstr "Съобщения"
+
+#: cl_pmw.php:57
+msgid "Messages"
+msgstr "Съобщения"
+
+#: cl_pmw.php:60 templates/inbox.php:2
+msgid "Inbox"
+msgstr "Входящи"
+
+#: cl_pmw.php:64 templates/outbox.php:2
+msgid "Outbox"
+msgstr "Изходящи"
+
+#: cl_pmw.php:68 templates/send.php:2
+msgid "Send Private Message"
+msgstr "Изпрати съобщение"
+
+#: cl_pmw.php:68
+msgid "Send"
+msgstr "Изпрати"
+
+#: cl_pmw.php:156 cl_pmw.php:176
+#, php-format
+msgid "You have %d new message!"
+msgid_plural "You have %d new messages!"
+msgstr[0] "Имате %d ново съобщение!"
+msgstr[1] "Имате %d нови съобщения!"
+
+#: cl_pmw.php:158
+msgid "Click here to go to inbox"
+msgstr "Натиснете тук за да отидете във входящата си кутия."
+
+#: cl_pmw.php:247
+msgid "Message marked as read."
+msgid_plural "Messages marked as read"
+msgstr[0] "Съобщението е маркирано като прочетено."
+msgstr[1] "Съобщенията са маркирани като прочетени."
+
+#: cl_pmw.php:251 cl_pmw.php:293 cl_pmw.php:356
+msgid "Error. Please try again."
+msgstr "Грешка. Моля, опитайте отново."
+
+#: cl_pmw.php:297 cl_pmw.php:358
+msgid "Message deleted."
+msgid_plural "Messages deleted."
+msgstr[0] "Съобщението е изтрито."
+msgstr[1] "Съобщенията са изтрити."
+
+#: templates/inbox.php:10
+msgid "You have no items in inbox."
+msgstr "Нямате съобщения във входящата си кутия."
+
+#: templates/inbox.php:23 templates/widget.php:53
+#, php-format
+msgid "You have %d private message (%d unread)."
+msgid_plural "You have %d private messages (%d unread)."
+msgstr[0] "Имате %d лично съобщение (%d непрочетени)."
+msgstr[1] "Имате %d лични съобщения (%d непрочетени)."
+
+#: templates/inbox.php:31
+msgid "Bulk Action"
+msgstr "Действия"
+
+#: templates/inbox.php:32 templates/inbox.php:84 templates/inboxmessage.php:20
+#: templates/outbox.php:49 templates/outboxmessage.php:20
+msgid "Delete"
+msgstr "Изтрий"
+
+#: templates/inbox.php:33 templates/inbox.php:76
+msgid "Mark As Read"
+msgstr "Маркирай като прочетено"
+
+#: templates/inbox.php:34
+msgid "Apply"
+msgstr "Приложи"
+
+#: templates/inbox.php:41 templates/inbox.php:102
+msgid "Sender"
+msgstr "Подател"
+
+#: templates/inbox.php:42 templates/inbox.php:103 templates/outbox.php:26
+#: templates/outbox.php:64 templates/send.php:160
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/inbox.php:43 templates/inbox.php:104 templates/outbox.php:27
+#: templates/outbox.php:65
+msgid "Date"
+msgstr "Дата"
+
+#: templates/inbox.php:69 templates/outbox.php:45
+msgid "View"
+msgstr "Виж"
+
+#: templates/inbox.php:88 templates/inboxmessage.php:24
+msgid "Reply"
+msgstr "Отговори"
+
+#: templates/inboxmessage.php:2
+msgid "Inbox \\ View Message"
+msgstr "Входящи \\ Виж съобщение"
+
+#: templates/inboxmessage.php:4
+msgid "Back to inbox"
+msgstr "Обратно към входящи"
+
+#: templates/inboxmessage.php:8 templates/inboxmessage.php:31
+#: templates/outboxmessage.php:8 templates/outboxmessage.php:27
+msgid "Info"
+msgstr "Информация"
+
+#: templates/inboxmessage.php:9 templates/inboxmessage.php:32
+#: templates/outboxmessage.php:9 templates/outboxmessage.php:28
+msgid "Message"
+msgstr "Съобщение"
+
+#: templates/inboxmessage.php:10 templates/inboxmessage.php:33
+#: templates/outboxmessage.php:10 templates/outboxmessage.php:29
+msgid "Action"
+msgstr "Действие"
+
+#: templates/inboxmessage.php:15
+#, php-format
+msgid "<b>Sender</b>: %s<br /><b>Date</b>: %s"
+msgstr "<b>Подател</b>: %s<br /><b>Дата</b>: %s"
+
+#: templates/inboxmessage.php:16 templates/outboxmessage.php:16
+#, php-format
+msgid "<p><b>Subject</b>: %s</p><p>%s</p>"
+msgstr "<p><b>Тема</b>: %s</p><p>%s</p>"
+
+#: templates/options.php:11
+msgid "Please set numbers of private messages for each user role:"
+msgstr "Задайте брой на съобщенията за всяка потребителска роля:"
+
+#: templates/options.php:12
+msgid "<b><i>0</i></b> means <b><i>unlimited</i></b>"
+msgstr "<b><i>0</i></b> означава <b><i>неограничени</i></b>"
+
+#: templates/options.php:13
+msgid "<b><i>-1</i></b> means <b><i>not allowed</i></b> to send PM"
+msgstr ""
+"<b><i>-1</i></b> означава <b><i>непозволено</i></b> изпращане на съобщения"
+
+#: templates/options.php:19
+msgid "Administrator"
+msgstr "Администратор"
+
+#: templates/options.php:25
+msgid "Editor"
+msgstr "Редактор"
+
+#: templates/options.php:29
+msgid "Author"
+msgstr "Автор"
+
+#: templates/options.php:33
+msgid "Contributor"
+msgstr "Сътрудник"
+
+#: templates/options.php:39
+msgid "Subscriber"
+msgstr "Абонат"
+
+#: templates/options.php:44
+msgid "How do you want to choose recipient?"
+msgstr "Как да се избира получател?"
+
+#: templates/options.php:47
+msgid "Dropdown list"
+msgstr "Падащо меню"
+
+#: templates/options.php:49
+msgid "Auto suggest from user input"
+msgstr "Автоматично предлагане при въвеждане"
+
+#: templates/options.php:53
+msgid "Delete messages older than (days)"
+msgstr "Изтриване на съобщения по-стари от (дни)"
+
+#: templates/options.php:58
+msgid "Shortest time interval for sending a message (seconds)"
+msgstr "Най-кратък интервал за изпращане на съобщения (секунди)"
+
+#: templates/options.php:66
+msgid "Save Changes"
+msgstr "Запази промените"
+
+#: templates/outbox.php:8
+msgid "You have no items in outbox."
+msgstr "Нямате съобщения в изходящата си кутия."
+
+#: templates/outbox.php:11
+#, php-format
+msgid "You wrote %d private message."
+msgid_plural "You wrote %d private messages."
+msgstr[0] "Написали сте %d съобщение."
+msgstr[1] "Написали сте %d съобщения."
+
+#: templates/outbox.php:18
+msgid "Delete Selected"
+msgstr "Изтрий избраното"
+
+#: templates/outbox.php:25 templates/outbox.php:63 templates/send.php:100
+msgid "Recipient"
+msgstr "Получател"
+
+#: templates/outboxmessage.php:2
+msgid "Outbox \\ View Message"
+msgstr "Изходящи \\ Виж съобщение"
+
+#: templates/outboxmessage.php:4
+msgid "Back to outbox"
+msgstr "Обратно към изходящи"
+
+#: templates/outboxmessage.php:15
+#, php-format
+msgid "<b>Recipient</b>: %s<br /><b>Date</b>: %s"
+msgstr "<b>Получател</b>: %s<br /><b>Дата</b>: %s"
+
+#: templates/send.php:17
+msgid ""
+"You have exceeded the limit of mailbox. Please delete some messages before "
+"sending another."
+msgstr ""
+"Надвишили сте лимита на пощенската си кутия. Моля, изтрийте някои съобщения преди да изпратите друго съобщение."
+
+#: templates/send.php:25
+msgid "You have exceeded the time limit of mailbox. Please wait before sending another message."
+msgstr "Надвишили сте времевия лимит за изпращане ан съобщения. Моля, изчакайте преди да изпратите друго съобщение."
+
+#: templates/send.php:47
+msgid "Please enter username of recipient."
+msgstr "Моля, въведете потребителско име на получателя."
+
+#: templates/send.php:52
+msgid "Please enter subject of message."
+msgstr "Моля, въведете тема на съобщението."
+
+#: templates/send.php:57
+msgid "Please enter content of message."
+msgstr "Моля, въведете съдържание в съобщението."
+
+#: templates/send.php:89
+#, php-format
+msgid "%d message sent."
+msgid_plural "%d messages sent."
+msgstr[0] "%d съобщение изпратено."
+msgstr[1] "%d съобщения изпратени."
+
+#: templates/send.php:89
+#, php-format
+msgid "%d error."
+msgid_plural "%d errors."
+msgstr[0] "%d  грешка."
+msgstr[1] "%d  грешки."
+
+#: templates/widget.php:51
+msgid "Show/Hide"
+msgstr "Покажи/Скрий"
+
+#: templates/send.php:124
+msgid "In: "
+msgstr "На: "
+
+#: templates/send.php:124
+msgid " Wrote:"
+msgstr " написа:"
+
+#: templates/send.php:164
+msgid "Content"
+msgstr "Съдържание"
+
+#. Plugin Name of the plugin/theme
+msgid "PrivateMessageWordpress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/CrediLab/PrivateMessageWordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allow members to send and receive private messages (PM)"
+msgstr "Позволява изпращане и получаване на лични съобщения."
+
+#. Author of the plugin/theme
+msgid "CrediLab"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/CrediLab"
+msgstr ""
+
+#: templates/widget.php:14
+msgid "Show notifications and new private messages on sidebar"
+msgstr "Показва известия и нови съобщения в страничната лента"
+
+#: templates/widget.php:16
+msgid "Private Messages Widget"
+msgstr "Уиджет за съобщения"
+
+#: templates/widget.php:74
+msgid "<br />by <b>%s</b><br />at %s"
+msgstr "<br />от <b>%s</b><br />на %s"
+
+#: templates/widget.php:105
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: templates/widget.php:110
+msgid "Number of messages:"
+msgstr "Брой съобщения:"
